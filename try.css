@@ -1,0 +1,656 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #080808;
+  color: #fff;
+}
+
+/* Header CSS starts */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 6px 10%;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  flex-wrap: wrap;
+}
+
+.logo {
+  position: relative;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 35px;
+  color: white;
+  text-decoration: none;
+  margin-left: 35px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: rgb(255, 72, 0);
+}
+
+/* Header CSS ends */
+
+/* Home Content Starts */
+.home-content {
+  max-width: 600px;
+}
+
+.main {
+  color: rgb(255, 72, 0);
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 60px;
+}
+
+.home-content h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.home-content h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.home-content h3 span {
+  color: rgb(255, 72, 0);
+}
+
+.mypara {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#aboutimg1 {
+  display: flex;
+}
+
+.about-img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#aboutcontent {
+  padding: 60px 70px;
+  width: 750px;
+  height: 60%;
+  font-size: x-large;
+  margin-top: 100px;
+}
+
+#mycolor {
+  color: rgb(255, 72, 0);
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.home-sci a {
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgb(255, 72, 0);
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover {
+  background: rgb(255, 72, 0);
+  color: #080808;
+  box-shadow: 0 0 20px rgb(255, 72, 0);
+}
+
+.btn-box {
+  display: inline-flex;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  background: rgb(255, 72, 0);
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-box:hover {
+  box-shadow: 0 0 50px rgb(255, 72, 0);
+}
+
+/* Home Content Ends */
+
+/* About CSS starts */
+#aboutpg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px;
+}
+
+.aboutimg-img {
+  padding: 20px;
+  margin-left: 100px;
+}
+
+.about-text {
+  padding: 50px;
+  font-size: large;
+  word-spacing: 1px;
+  margin-left: 50px;
+}
+
+.about-text h2 {
+  font-size: 80px;
+  padding-bottom: 20px;
+}
+
+.about-text h2 span {
+  font-size: 80px;
+  color: rgb(255, 72, 0);
+}
+
+.about-text h4 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.about-text p {
+  color: #fff;
+  font-size: 25px;
+  line-height: 1.4;
+  margin: 1rem 0 2rem;
+}
+
+.btn-red {
+  display: inline-flex;
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  background: rgb(255, 72, 0);
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-left: 100px;
+  transition: 0.3s;
+}
+
+.btn-red:hover {
+  box-shadow: 0 0 50px rgb(255, 72, 0);
+}
+
+/* About CSS ends */
+
+/* Services CSS starts */
+#services {
+  color: white;
+  line-height: 1.4;
+  font-size: 20px;
+  margin: 2rem 100px 100px;
+  text-align: center;
+  display: grid;
+}
+
+.sub-title {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+.sub-title span {
+  font-size: 80px;
+  color: rgb(255, 72, 0);
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+  grid-gap: 60px;
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.services-list div {
+  background-color: transparent;
+  padding: 20px 60px;
+  font-size: 14px;
+  border-radius: 20px;
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 1px 1px 20px rgb(255, 72, 0);
+}
+
+.services-list div i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.services-list div h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.services-list div p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.services-list div a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.read {
+  display: inline-block;
+  padding: 12px 20px;
+  background: rgb(255, 72, 0);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.read:hover {
+  box-shadow: 0 0 30px rgb(255, 72, 0);
+}
+
+/* Services CSS ends */
+
+/* Project CSS starts */
+.portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+  margin: 160px 0 100px;
+}
+
+.portfolio-content {
+  display: flex;
+  border: 2px solid white;
+  margin-top: 4rem;
+  padding: 20px 40px;
+  gap: 1rem;
+}
+
+.portfolio-content a img {
+  border: 5px solid white;
+}
+
+.row {
+  margin-top: 2rem;
+  position: relative;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 40px;
+  gap: 1px;
+}
+
+.row img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.row img:hover {
+  box-shadow: 0 0 50px rgb(255, 72, 0);
+}
+
+.main-text h2 {
+  font-size: 80px;
+  line-height: 1;
+  text-align: center;
+}
+
+.main-text h2 span {
+  color: rgb(255, 72, 0);
+}
+
+/* Project CSS ends */
+
+/* Contact CSS starts */
+.contact-left {
+  flex-basis: 35%;
+}
+
+.contact-left h2 {
+  font-size: 80px;
+}
+
+.contact-left h2 span {
+  color: rgb(255, 72, 0);
+}
+
+.contact-right {
+  flex-basis: 60%;
+}
+
+.contact-left p {
+  margin: 30px 0 20px;
+  font-size: 25px;
+}
+
+.contact-left p i {
+  color: rgb(255, 72, 0);
+  margin-right: 25px;
+  font-size: 25px;
+}
+
+.social-icons {
+  margin-top: 80px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+  color: rgb(255, 72, 0);
+  transform: translateY(-10px);
+}
+
+.contact-right {
+  margin-top: 50px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  width: 100%;
+  padding: 12px;
+  background: none;
+  outline: none;
+  color: #fff;
+  border: 1px solid #ababab;
+  margin-bottom: 20px;
+}
+
+.contact-right label {
+  margin-left: 10px;
+  color: #ababab;
+}
+
+.contact-right textarea {
+  resize: none;
+  height: 200px;
+}
+
+.contact-right button {
+  background: rgb(255, 72, 0);
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.contact-right button:hover {
+  background: rgb(255, 110, 0);
+}
+
+.contact {
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .contact-form {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Contact CSS ends */
+
+/* Media Queries */
+@media (max-width: 1440px) {
+  .header {
+    padding: 8px 5%;
+  }
+
+  .navbar a {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .home-content h1 {
+    font-size: 40px;
+  }
+
+  .home-content h3 {
+    font-size: 24px;
+  }
+
+  .home-content .mypara {
+    font-size: 18px;
+  }
+
+  .about-text h2 {
+    font-size: 60px;
+  }
+
+  .about-text h4 {
+    font-size: 30px;
+  }
+
+  .services-list div h2 {
+    font-size: 26px;
+  }
+
+  .contact-left h2 {
+    font-size: 70px;
+  }
+
+  .contact-left p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 10px 2%;
+  }
+
+  .navbar a {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+
+  .home-content h1 {
+    font-size: 40px;
+  }
+
+  .home-content h3 {
+    font-size: 24px;
+  }
+
+  .home-content p {
+    font-size: 20px;
+  }
+
+  .about-text h2 {
+    font-size: 50px;
+  }
+
+  .about-text h4 {
+    font-size: 24px;
+  }
+
+  .about-text p {
+    font-size: 20px;
+  }
+
+  .aboutimg1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .about-img img {
+    display: none;
+  }
+
+  .btn-box {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-img,
+  #aboutpg {
+    width: 555px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .aboutimg-img {
+    padding: 10px;
+    margin-left: -60px;
+  }
+
+  .about-text {
+    padding: 5px;
+    width: 500px;
+    font-size: large;
+    word-spacing: 1px;
+    margin-left: 0;
+  }
+
+  #aboutcontent {
+    width: 100vw;
+    padding: 20px;
+  }
+
+  .services-list div h2 {
+    font-size: 22px;
+  }
+
+  .services-list div p {
+    font-size: 14px;
+  }
+
+  .contact-left h2 {
+    font-size: 60px;
+  }
+
+  .contact-left p {
+    font-size: 20px;
+  }
+
+  .portfolio-content {
+    flex-direction: column;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 6px 1%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar a {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .home-content h1 {
+    font-size: 35px;
+  }
+
+  .home-content h3 {
+    font-size: 20px;
+  }
+
+  .home-content p {
+    font-size: 18px;
+  }
+
+  .about-text h2 {
+    font-size: 40px;
+  }
+
+  .about-text h4 {
+    font-size: 20px;
+  }
+
+  .about-text p {
+    font-size: 18px;
+  }
+
+  .services-list div h2 {
+    font-size: 20px;
+  }
+
+  .services-list div p {
+    font-size: 14px;
+  }
+
+  .contact-left h2 {
+    font-size: 50px;
+  }
+
+  .contact-left p {
+    font-size: 18px;
+  }
+}
